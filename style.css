@@ -1,0 +1,109 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 10px;
+    }
+    
+    body {
+        font-family: Roboto, sans-serif;
+        text-align: center;
+    }
+
+    section {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(30, 80, 110);
+    }
+    
+    .about-me {
+        background-color: aliceblue;
+    }
+
+    .about-me img {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: grey;
+        margin-top: 10px;
+    }
+
+    .description {
+        font-size: 2rem;
+        color:rgb(10, 52, 92);
+        margin: 35px auto 10px;
+        width: 100%;
+        max-width: 760px;
+    }
+
+    .networks {
+        margin: 20px 0 15px;
+    }
+
+    h2 {
+        font-size: 3rem;
+        color: grey;
+    }
+
+    li {
+        font-size: 2.5rem;
+    }
+
+    .interests {
+        background-color: aliceblue;
+        padding: 50px 0;
+        font-size: 0;
+        text-align: center;
+    }
+
+    article {
+        display: inline-block;
+        max-width: 300px;
+        vertical-align: top;
+    }
+
+    article p {
+        font-size: 1.8rem;
+        color: #183a55;
+        padding: 30px 30px;
+        width: 100%;
+    }
+
+    article img {
+        margin-bottom: 20px;
+        height: 350px;
+        max-width: 250px;
+        width: 100%;
+    }
+
+    article:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .quote {
+        padding: 80px 100px;
+        font-size: 0;
+        text-align: center;
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: #46131e;
+        padding-bottom: 30px;
+    }
+
+    .quote p {
+        color: #41083e;
+        font-size: 2rem;
+    }
